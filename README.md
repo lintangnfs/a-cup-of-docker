@@ -1,10 +1,19 @@
 # A Cup of Docker
 Welcome to my learning repository. Happy to learn a cute blue whale in all its cuteness (i mean benefit) 人◕ ‿‿ ◕人
 
+## Description 
+* This repository consist of 3 major app ( Frontend, Admin SQL and Database )
+* There are no backend, only use Next JS local api to manipulate data
 
-## Tech
+## Rules
+* Database will execute first
+* Admin sql and Frontend execute depens on database ( if database running successfully then they will be executed )
+
+
+## Tech Stack
 [![Docker][Docker-img]][Docker-url] [![Maria][MariaDB]][MariaDB-url]
  [![AdminSQL][PHPMyAdmin]][PHPMyAdmin-url] [![Next][Next.js]][Next-url] [![Query][React-query]][React-query-url] 
+
 
 ## Command that help us
 | Command | Description |
