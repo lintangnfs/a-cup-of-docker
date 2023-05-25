@@ -8,6 +8,7 @@ Welcome to my learning repository. Happy to learn a cute blue whale in all its c
 
 ## Command that help us
 | Command | Description |
+| ----------- | ----------- |
 | `docker compose up -d` | Command to up and run the docker compose |
 | `docker compose down` | Command to destroy docker container |
 | `docker compose stop` | Command to stop docker container |
@@ -18,8 +19,8 @@ Welcome to my learning repository. Happy to learn a cute blue whale in all its c
 [Docker-img]: https://img.shields.io/badge/Docker-%230077B5.svg?&style=for-the-badge&logo=docker&logoColor=white
 [Docker-url]: https://www.docker.com/
 
-[Next.js]: https://img.shields.io/badge/NextJS-000000?style=for-the-badge&logo=next.js&logoColor=white
+[Next.js]: https://img.shields.io/badge/Next%20JS-000000?style=for-the-badge&logo=next.js&logoColor=white
 [Next-url]: https://nextjs.org/
 
-[PHPMyAdmin]: https://img.shields.io/badge/PHP%20My%20Admin-E28743?style=for-the-badge&logo=phpmyadmin&logoColor=white
+[PHPMyAdmin]: https://img.shields.io/badge/PHP%20MyAdmin-E28743?style=for-the-badge&logo=phpmyadmin&logoColor=white
 [PHPMyAdmin-url]: https://hub.docker.com/r/phpmyadmin/phpmyadmin/
