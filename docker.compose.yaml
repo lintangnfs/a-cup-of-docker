@@ -1,0 +1,54 @@
+version: '3.1'
+
+services:
+  db:
+    container_name: dbMaria
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: next_level
+    ports:
+      - 3306:3306
+    # volumes:
+    #   - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - fe_network
+  phpmyadmin:
+    container_name: phpmyAdmin
+    image: phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - 8080:80
+    depends_on:
+      - db
+    networks:
+      - fe_network
+  frontend:
+    container_name: frontend
+    image: frontend
+    ports:
+      - 4001:3000
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: whale
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root 
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    # depends_on:
+    #   - db
+    networks:
+      - fe_network
+
+networks:
+  fe_network:
+    name: fe_network
+    
+    
