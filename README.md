@@ -2,7 +2,7 @@
 Welcome to my learning repository. Happy to learn a cute blue whale in all its cuteness (i mean benefit) 人◕ ‿‿ ◕人
 
 
-## What this project use
+## Tech
 [![Docker][Docker-img]][Docker-url] [![Maria][MariaDB]][MariaDB-url]
  [![AdminSQL][PHPMyAdmin]][PHPMyAdmin-url] [![Next][Next.js]][Next-url] [![Query][React-query]][React-query-url] 
 
