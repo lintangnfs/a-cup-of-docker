@@ -7,11 +7,11 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: next_level
+      MYSQL_DATABASE: animalia
     ports:
       - 3306:3306
-    # volumes:
-    #   - ./sql:/docker-entrypoint-initdb.d
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
     networks:
       - fe_network
   phpmyadmin:
@@ -36,14 +36,14 @@ services:
     environment:
       MYSQL_HOST: db
       MYSQL_PORT: 3306
-      MYSQL_DATABASE: whale
+      MYSQL_DATABASE: animalia
       MYSQL_USER: root
       MYSQL_PASSWORD: root 
     build:
       context: frontend
       dockerfile: Dockerfile
-    # depends_on:
-    #   - db
+    depends_on:
+      - db
     networks:
       - fe_network
 
