@@ -1,10 +1,10 @@
 # A Cup of Docker
 Welcome to my learning repository. Happy to learn a cute blue whale in all its cuteness (i mean benefit) 人◕ ‿‿ ◕人
 
+
 ## What this project use
-* [![Docker][Docker-img]][Docker-url]
-* [![AdminSQL][PHPMyAdmin]][PHPMyAdmin-url]
-* [![Next][Next.js]][Next-url]
+[![Docker][Docker-img]][Docker-url] [![Maria][MariaDB]][MariaDB-url]
+ [![AdminSQL][PHPMyAdmin]][PHPMyAdmin-url] [![Next][Next.js]][Next-url] [![Query][React-query]][React-query-url] 
 
 ## Command that help us
 | Command | Description |
@@ -24,3 +24,9 @@ Welcome to my learning repository. Happy to learn a cute blue whale in all its c
 
 [PHPMyAdmin]: https://img.shields.io/badge/PHP%20MyAdmin-E28743?style=for-the-badge&logo=phpmyadmin&logoColor=white
 [PHPMyAdmin-url]: https://hub.docker.com/r/phpmyadmin/phpmyadmin/
+
+[MariaDB]: https://img.shields.io/badge/MariaDB-154C79?style=for-the-badge&logo=mariadb&logoColor=white
+[MariaDB-url]: https://hub.docker.com/_/mariadb
+
+[React-query]: https://img.shields.io/badge/React%20Query-873E23?style=for-the-badge&logo=react-query&logoColor=white
+[React-query-url]: https://tanstack.com/query/v3/
